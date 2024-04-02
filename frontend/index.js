@@ -69,7 +69,7 @@ async function moduleProject4() {
     var day = parseInt(parts[2], 10);
 
    
-    var date = new Date(year, month, day);
+    var Date = new Date(year, month, day);
 
     
     var dayOfWeek = date.getDay();
